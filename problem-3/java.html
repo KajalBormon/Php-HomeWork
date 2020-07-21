@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Events</title>
+</head>
+<body>
+    <button onmouseover="mouseOver()" onmouseout="mouseOut()">Mouseover</button>
+    <p id="mouse1"></p>
+    <button onclick="onClick()">Click</button>
+    <p id="click"></p>
+    <button onkeypress="key()">KeyPress</button>
+    <p id="press"></p>
+    <script>
+        function mouseOver(){
+            document.getElementById('mouse1').innerHTML="Hello World";
+        }
+        function mouseOut(){
+            document.getElementById('mouse1').innerHTML="";
+        }
+        function onClick(){
+            document.getElementById('click').innerHTML="Hello World";
+        }
+        function key(){
+            document.getElementById('press').innerHTML="Hello World";
+        }
+    </script>
+</body>
+</html>
