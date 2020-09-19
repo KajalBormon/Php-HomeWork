@@ -1,0 +1,21 @@
+.content-table thead{
+    background: lightsteelblue;
+    color: crimson;
+}
+.content-table thead th{
+    border: 2px solid #fff;
+    padding: 7px 50px 7px 50px;
+    text-align: center;
+}
+.content-table tbody tr td{
+    border: 2px solid #fff;
+    padding: 7px 60px 7px 60px;
+    text-align: left;
+    font-size: 14px;
+}
+.content-table tbody tr{
+    background-color: #e7e7e7;
+}
+.content-table tbody tr:nth-child(even){
+    background: #e7e7e767;
+}
