@@ -1,0 +1,33 @@
+.content-table thead{
+    background: lightsteelblue;
+    color: crimson;
+}
+.content-table thead th{
+    border: 2px solid #fff;
+    padding: 5px 40px 5px 40px;
+    text-align: center;
+}
+.content-table tbody tr td{
+    border: 2px solid #fff;
+    padding: 7px 40px 7px 40px;
+    text-align: center;
+    font-size: 14px;
+}
+.content-table tbody tr{
+    background-color: #e7e7e7;
+}
+.content-table tbody tr:nth-child(even){
+    background: #e7e7e767;
+}
+.btn button{
+	padding: 10px 20px;
+	background: crimson;
+	color:#fff;
+	cursor:pointer;
+}
+.edit a{
+	text-decoration:none;
+	color:#fff;
+	padding: 5px 10px;
+	background:salmon;
+}
